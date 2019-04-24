@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Onah Bosen</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="jumbotron">
+            <h1 class="display-4"><i class="fas fa-users"></i> FriendFinder</h1>
+            <p class="lead">A compatability-based social media application for when you're looking for a special friend.</p>
+            <hr class="my-4">
+        </div>
+    </header>
+        <div class="survey container">
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="name" class="form-control" id="name" placeholder="Enter name">
+                </div>
+                <div class="form-group">
+                    <label for="image-link">Selfie</label>
+                    <input type="link" class="form-control" id="image-link" placeholder="Enter link to an image of yourself">
+                </div>
+                <div class="form-group">
+                    <label for="question1">You like snacks.</label>
+                    <select class="form-control" id="question1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question2">You like sleeping.</label>
+                    <select class="form-control" id="question2">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question3">You like dogs.</label>
+                    <select class="form-control" id="question3">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question4">You like yourself.</label>
+                    <select class="form-control" id="question4">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question5">You are a good boy.</label>
+                    <select class="form-control" id="question5">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question6">You can do tricks.</label>
+                    <select class="form-control" id="question6">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question7">You don't need to be able to do tricks because you are so cute.</label>
+                    <select class="form-control" id="question7">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question8">You find this boring.</label>
+                    <select class="form-control" id="question8">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question9">You want to eat.</label>
+                    <select class="form-control" id="question9">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="question10">You want to go back to sleep.</label>
+                    <select class="form-control" id="question10">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <button class="btn btn-lg submit" data-toggle="modal" data-target="#match-modal" role="button">Submit</button>
+            </form>
+        </div>
+    <div class="modal fade" id="match-modal" tabindex="-1" role="dialog" aria-labelledby="match-modal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Your Special Friend</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h4 id="match"></h4>
+                    <img id="match-image" width="300" src="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $('.submit').on('click', function(event) {
+            event.preventDefault();
+
+            $('.modal').modal();
+
+            var userInput = {
+                name: $('#name').val().trim(),
+                photo: $('#image-link').val().trim(),
+                scores:[
+                    $('#question1').val().trim(),
+                    $('#question2').val().trim(),
+                    $('#question3').val().trim(),
+                    $('#question4').val().trim(),
+                    $('#question5').val().trim(),
+                    $('#question6').val().trim(),
+                    $('#question7').val().trim(),
+                    $('#question8').val().trim(),
+                    $('#question9').val().trim(),
+                    $('#question10').val().trim()
+                ]
+            };
+            $.post('/api/friends', userInput)
+                .done(function(data) {
+                    $('#match').html(data.matchName);
+                    $("#match-image").attr("src", data.matchImage);
+                    $('#match-modal').modal('open');
+                });
+        });
+    </script>
+</body>

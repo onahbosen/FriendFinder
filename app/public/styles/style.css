@@ -1,0 +1,16 @@
+body {
+    background-color: #e8f0ff;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+.jumbotron {
+    background-color: #e8f0ff;
+}
+
+.btn {
+    background-color: #25437a;
+    color: #fff;
+}
